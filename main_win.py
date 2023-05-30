@@ -2,6 +2,7 @@ from PyQt5 import QtGui
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import *
 from options import *
+from second_win import SecondWin
 
 
 class MainWin(QWidget):
@@ -15,34 +16,26 @@ class MainWin(QWidget):
     def set_appear(self):
         self.resize(win_width, win_height)
         self.setWindowTitle(win_title)
-        self.setWindowIcon(QtGui.QIcon('pulse.png'))
+        self.setWindowIcon(QtGui.QIcon(pulse_icon))
 
     def initUI(self):
-        self.hello = QLabel('Welcome to the health assessment program!')
-        self.txt_instruction = QLabel('This application will allow you to use the Rufier test to conduct a primary '
-                                      'diagnosis of your health.\n'
-                                      'The Rufier test is a load complex designed to assess performance '
-                                      'hearts during physical exertion.\n'
-                                      'The pulse rate is determined in the subject who is lying on his back for 5 '
-                                      'minutes in 15 seconds;\n'
-                                      'then, within 45 seconds, the subject performs 30 squats.\n'
-                                      'After the end of the load, the subject lies down, and the number of pulsations '
-                                      'for him is counted again.'
-                                      'the first 15 seconds,\n'
-                                      'and then — for the last 15 seconds of the first minute of the recovery period.\n'
-                                      'Important! If you feel unwell during the test\n'
-                                      '(dizziness will appear, tinnitus, severe shortness of breath, etc.)\n'
-                                      'then the test should be interrupted and consult a doctor.')
-        self.txt_instruction.setAlignment(Qt.AlignCenter)
-        self.button = QPushButton('Next')
+        self.hello = QLabel(hello)
+        self.instruction = QLabel(txt_instruction)
+        self.instruction.setAlignment(Qt.AlignCenter)
+        self.button_next = QPushButton(button_next)
+
         self.vline = QVBoxLayout()
         self.vline.addWidget(self.hello, alignment=Qt.AlignCenter | Qt.AlignTop)
-        self.vline.addWidget(self.txt_instruction, alignment=Qt.AlignCenter)
-        self.vline.addWidget(self.button, alignment=Qt.AlignCenter)
+        self.vline.addWidget(self.instruction, alignment=Qt.AlignCenter)
+        self.vline.addWidget(self.button_next, alignment=Qt.AlignCenter)
         self.setLayout(self.vline)
 
     def connects(self):
-        pass
+        self.button_next.clicked.connect(next_win)
+
+    def next_win(self):
+        self.hide()
+        self.mv = SecondWin()
 
 
 app = QApplication([])
