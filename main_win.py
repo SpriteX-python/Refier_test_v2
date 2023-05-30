@@ -12,6 +12,8 @@ class MainWin(QWidget):
         self.connects()
         self.show()
 
+    # gfgfgagfa
+
     def set_appear(self):
         self.resize(win_width, win_height)
         self.setWindowTitle(win_title)
