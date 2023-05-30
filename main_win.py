@@ -12,8 +12,6 @@ class MainWin(QWidget):
         self.connects()
         self.show()
 
-    # gfgfgagfa
-
     def set_appear(self):
         self.resize(win_width, win_height)
         self.setWindowTitle(win_title)
@@ -35,8 +33,12 @@ class MainWin(QWidget):
                                       'Important! If you feel unwell during the test\n'
                                       '(dizziness will appear, tinnitus, severe shortness of breath, etc.)\n'
                                       'then the test should be interrupted and consult a doctor.')
+        self.txt_instruction.setAlignment(Qt.AlignCenter)
+        self.button = QPushButton('Next')
         self.vline = QVBoxLayout()
         self.vline.addWidget(self.hello, alignment=Qt.AlignCenter | Qt.AlignTop)
+        self.vline.addWidget(self.txt_instruction, alignment=Qt.AlignCenter)
+        self.vline.addWidget(self.button, alignment=Qt.AlignCenter)
         self.setLayout(self.vline)
 
     def connects(self):
