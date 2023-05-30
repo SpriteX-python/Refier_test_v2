@@ -11,8 +11,8 @@ Welcome to the README file for the Rufier Test, a widely used method for evaluat
 ## What is the Rufier Test?
 The Rufier Test, also known as the "Rufier-Dickson test," is a straightforward assessment that helps determine an individual's cardiovascular fitness. Named after the French physicians Jules Rufier and Roger Dickson, who developed it in the early 20th century, this test remains popular due to its simplicity and effectiveness.
 
-Table:
-![Rufier\n](https://github.com/SpriteX-python/Refier_test_v2/blob/master/rufier_table.jpg)
+Table:\
+![Rufier](https://github.com/SpriteX-python/Refier_test_v2/blob/master/rufier_table.jpg)
 
 ## Purpose of the Test
 The primary objective of the Rufier Test is to evaluate the adaptability of the cardiovascular system during a period of increased physical stress. By measuring the heart rate before and after a series of simple exercises, this test provides a reliable indicator of an individual's overall cardiovascular fitness and potential underlying health issues.
