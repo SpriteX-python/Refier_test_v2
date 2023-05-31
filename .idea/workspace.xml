@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fbc7596-d6af-4ef8-b08a-76af01c0ffa5" name="Changes" comment="testing...&#10;show second_win.py">
+    <list default="true" id="1fbc7596-d6af-4ef8-b08a-76af01c0ffa5" name="Changes" comment="testing...&#10;show second_win.py&#10;fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_win.py" beforeDir="false" afterPath="$PROJECT_DIR$/main_win.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_win.py" beforeDir="false" afterPath="$PROJECT_DIR$/second_win.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685468045242</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="testing...&#10;show second_win.py&#10;fix">
+      <created>1685514174445</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685514174445</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -108,6 +113,7 @@
     <MESSAGE value="new link for README.md file" />
     <MESSAGE value="new fix in README.md file" />
     <MESSAGE value="testing...&#10;show second_win.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="testing...&#10;show second_win.py" />
+    <MESSAGE value="testing...&#10;show second_win.py&#10;fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing...&#10;show second_win.py&#10;fix" />
   </component>
 </project>

@@ -22,6 +22,7 @@ class SecondWin(QWidget):
 
         self.vline = QVBoxLayout()
         self.vline.addWidget(self.hello, alignment=Qt.AlignCenter | Qt.AlignTop)
+        self.setLayout(self.vline)
 
     def connects(self):
         pass
