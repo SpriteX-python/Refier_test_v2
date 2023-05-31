@@ -18,7 +18,10 @@ class SecondWin(QWidget):
         self.setWindowIcon(QtGui.QIcon(pulse_icon))
 
     def initUI(self):
-        pass
+        self.hello = QLabel(hello)
+
+        self.vline = QVBoxLayout()
+        self.vline.addWidget(self.hello, alignment=Qt.AlignCenter | Qt.AlignTop)
 
     def connects(self):
         pass

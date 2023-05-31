@@ -31,7 +31,7 @@ class MainWin(QWidget):
         self.setLayout(self.vline)
 
     def connects(self):
-        self.button_next.clicked.connect(next_win)
+        self.button_next.clicked.connect(self.next_win)
 
     def next_win(self):
         self.hide()
