@@ -29,6 +29,7 @@ class SecondWin(QWidget):
 
     def next_win(self):
         pass
+# olzhas
 
 
 app = QApplication([])
