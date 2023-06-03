@@ -40,3 +40,6 @@ hintage = "0"
 txt_hinttest1 = '0'
 txt_hinttest2 = '0'
 txt_hinttest3 = '0'
+rufieindex = 'Rufier Index:'
+heart_work = 'Heart performance:'
+index = (4 * (P1 + P2 + P3) - 200) / 10
