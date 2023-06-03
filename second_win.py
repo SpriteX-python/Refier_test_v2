@@ -29,8 +29,3 @@ class SecondWin(QWidget):
 
     def next_win(self):
         pass
-
-
-app = QApplication([])
-win = SecondWin()
-app.exec_()
