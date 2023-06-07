@@ -1,8 +1,7 @@
 from PyQt5 import QtGui
-from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import *
 from options import *
-from third_win import *
+from third_win import FinalWin
 from PyQt5.QtCore import Qt, QTimer, QTime, QLocale
 from PyQt5.QtGui import *
 
