@@ -1,8 +1,9 @@
 from PyQt5 import QtGui
+from PyQt5.QtWidgets import QWidget
 from PyQt5.QtWidgets import *
 from options import *
-from third_win import FinalWin
-from PyQt5.QtCore import Qt, QTimer, QTime, QLocale
+from third_win import *
+from PyQt5.QtCore import Qt, QTimer, QTime
 from PyQt5.QtGui import *
 
 
@@ -40,7 +41,10 @@ class SecondWin(QWidget):
         self.line_test1 = QLineEdit(txt_hinttest1)
         self.line_test2 = QLineEdit(txt_hinttest2)
         self.line_test3 = QLineEdit(txt_hinttest3)
-
+        self.btn_next = QPushButton('Get results', self)
+        self.btn_test1 = QPushButton('Start 1st test', self)
+        self.btn_test2 = QPushButton('Start 2nd test', self)
+        self.btn_test3 = QPushButton('Start 3rd test', self)
         self.l_line = QVBoxLayout()
         self.r_line = QVBoxLayout()
         self.h_line = QHBoxLayout()
@@ -128,8 +132,3 @@ class SecondWin(QWidget):
         self.btn_test1.clicked.connect(self.timer_test)
         self.btn_test2.clicked.connect(self.timer_sits)
         self.btn_test3.clicked.connect(self.timer_final)
-
-    def next_win(self):
-        pass
-        # self.hide()
-        # self.mv = FinalWin()

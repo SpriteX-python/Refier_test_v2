@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1fbc7596-d6af-4ef8-b08a-76af01c0ffa5" name="Changes" comment="second win">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/options.py" beforeDir="false" afterPath="$PROJECT_DIR$/options.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/second_win.py" beforeDir="false" afterPath="$PROJECT_DIR$/second_win.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/third_win.py" beforeDir="false" afterPath="$PROJECT_DIR$/third_win.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685806035353</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="second win">
+      <created>1686154809848</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1686154809848</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
