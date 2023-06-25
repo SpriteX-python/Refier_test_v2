@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fbc7596-d6af-4ef8-b08a-76af01c0ffa5" name="Changes" comment="second win">
+    <list default="true" id="1fbc7596-d6af-4ef8-b08a-76af01c0ffa5" name="Changes" comment="final fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/options.py" beforeDir="false" afterPath="$PROJECT_DIR$/options.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/second_win.py" beforeDir="false" afterPath="$PROJECT_DIR$/second_win.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/third_win.py" beforeDir="false" afterPath="$PROJECT_DIR$/third_win.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -137,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686154809848</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="final fix">
+      <created>1687419897853</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1687419897853</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -163,6 +168,7 @@
     <MESSAGE value="QQQ" />
     <MESSAGE value="fix bug" />
     <MESSAGE value="second win" />
-    <option name="LAST_COMMIT_MESSAGE" value="second win" />
+    <MESSAGE value="final fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="final fix" />
   </component>
 </project>
